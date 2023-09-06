@@ -1,4 +1,12 @@
+function plus(){
+    const x=document.getElementByIdElement("div");
+    document.body.appendChild(x);
+ }
 
+function push(){
+    const y=document.createElement("span");
+    document.Board.appendChild(y);
+}
 function col1(z)
 {
     z.style.backgroundColor = "red";
